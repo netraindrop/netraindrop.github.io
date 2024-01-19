@@ -1,0 +1,111 @@
+.labeling-content {
+  width: 100%;
+  text-align: center;
+}
+
+.home--statehero {
+  width: 100%;
+  height: 100vh;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+}
+.home--statehero-box {
+  width: 100%;
+  max-width: 1050px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home--statehero-box .home--statehero-icon {
+  width: 160px;
+  height: 160px;
+}
+.home--statehero-box .home--statehero-icon img {
+  width: 100%;
+  height: 100%;
+}
+.home--statehero-box .home--statehero-text {
+  width: calc(100% - 160px);
+  padding: 0px 14px;
+}
+.home--statehero-box .home--statehero-text h2 {
+  font-size: 36px;
+  margin: 0px;
+  display: block;
+}
+.home--statehero-box .home--statehero-text p {
+  font-size: 17px;
+  margin: 0px; 
+  margin-top: 14px;
+  display: block;
+  text-align: justify;
+}
+
+.paper--stateinfo {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paper--stateinfo-box {
+  width: 100%;
+  height: 400px;
+  max-width: 1050px;
+  background-color: #f3f3ff;
+  padding: 0px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.paper--stateinfo-box .paper--stateinfo-tab {
+  width: 350px;
+  height: calc(400px - 20px);
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 12px 12px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 7px 12px;
+}
+.paper--stateinfo-box .paper--stateinfo-tab .paper--stateinfo-listtab {
+  padding: 12px;
+  border: 1px solid #f6f5ff;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  transition: .2s;
+  cursor: pointer;
+}
+.paper--stateinfo-box .paper--stateinfo-tab .paper--stateinfo-listtab:hover {
+  border: 1px solid #c4c1e6;
+  background-color: #e8e6ff;
+}
+.paper--stateinfo-box .paper--stateinfo-tab .paper--stateinfo-listtab p {
+  margin-bottom: 0px;
+  margin-top: 4px;
+  font-size: 14px;
+}
+.paper--stateinfo-box .paper--stateinfo-tab .paper--stateinfo-listtab h3 {
+  margin: 0px;
+}
+.paper--stateinfo-box .paper--stateinfo-content {
+  width: calc(100% - 350px);
+  height: 100%;
+}
+.paper--stateinfo-box .paper--stateinfo-content .paper--stateinfo-listcontent {
+  padding: 4px 26px;
+}
+
+@media only screen and (max-width: 670px) {
+  .home--statehero-box {
+    justify-content: center;
+  }
+  .home--statehero-box .home--statehero-text {
+    text-align: center;
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 20px;
+  }
+}
